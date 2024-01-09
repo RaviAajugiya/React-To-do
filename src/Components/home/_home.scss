@@ -1,0 +1,50 @@
+.home {
+  .filter-group {
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      border: 2px solid black;
+      padding: 0.6em;
+      border-radius: 0.3em;
+    }
+  }
+
+  .todo {
+    margin: 1.5em 0;
+
+    .todo-text {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .todo-icon-container {
+      display: flex;
+      gap: 0.5em;
+    }
+
+    .todo-information{
+      display: flex;
+
+      div{
+        display: inline-flex;
+        justify-content: flex-start !important;
+        gap: 0.3em;   
+        align-items: center;
+        margin-left: 1.5em;
+      }
+
+      .todo-label{
+        .label-color{
+          display: inline-block;
+          background-color:rgb(255, 107, 107);
+          width: 0.7em;
+          height: 0.7em;
+          border-radius: 3px;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,26 @@
+.addTask {
+  .addTask-btn {
+    display: flex;
+    align-items: center;
+  }
+
+  .add-container {
+    form {
+      display: flex;
+      gap: 1em;
+      flex-direction: column;
+
+      button{
+        width: 5em;
+      }
+
+      input{
+        border: none;
+
+        &:focus{
+            border: none;
+        }
+      }
+    }
+  }
+}

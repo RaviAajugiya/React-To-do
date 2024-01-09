@@ -1,5 +1,17 @@
 @import '../Components/Footer/footer';
+@import '../Components/Header/header';
+@import '../Components/home/home';
+@import '../Components/addTask/addTask';
 
-h1{
-    color: red;
+
+*{
+    font-family: 'Poppins';
+    padding: 0.1em;
 }
+
+.main-container{
+    height: calc(100vh - 6em) ;
+    text-align: center;
+}
+
+
